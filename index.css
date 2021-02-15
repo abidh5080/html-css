@@ -10,7 +10,7 @@ body{
     width: 1170px;
     margin: auto;
     overflow: hidden;
-
+   
 }
 .phone {
     width: 300px;
@@ -29,13 +29,12 @@ body{
 .scociale{
     width: 181px;
     float:right;
-  
    
 }
 #topbar{
     background-color: rgba(223, 223, 223, 0.534);
     overflow: hidden;
-
+    
 }
 #icon{
     margin-left: 10px;
@@ -45,6 +44,7 @@ body{
     margin-left: 15px;
     margin-right: 15px;
     color: rgba(0, 0, 0, 0.788);
+    transition: .4s;
 }
 .facebook{
     float: left;
@@ -117,13 +117,54 @@ body{
     text-decoration: none;
     padding: 12px;
     transition: 0.4s;
+    color: rgb(10, 10, 10);
 }
 .logo {
     padding: 10px;
 }
-.menuli a:hover{
+.menuli li a:hover{
     color: rgb(255, 0, 0);
 }
-.second{
-    
+#icon1:hover{
+    color: rgb(255, 0, 0);
+}
+.image{
+    background-repeat: no-repeat;
+    background: url(image/water-lily-1592793_1280.png);
+}
+.background h2{
+    width: 500px;
+    color: cornsilk;
+    text-transform: uppercase;
+    padding-top: 90px;
+    margin-left: 500px;
+    padding-bottom: 30px;
+}
+.background p{
+    width: 500px;
+    color: cornsilk;
+    margin-left: 500px;
+    padding-bottom: 30px;
+}
+.background a button{
+    border: none;
+    padding: 10px 25px;
+    margin-left: 500px;
+    margin-bottom: 90px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: rgb(255, 28, 28);
+    text-decoration: none;
+    color: cornsilk;
+    font-family: oswald;
+    transition: 0.5s;
+}
+.background a{
+    text-decoration: none;
+
+}
+.background a button:hover{
+    background-color: cornsilk;
+    color: black;
 }
