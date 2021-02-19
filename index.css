@@ -323,3 +323,47 @@ h1, h2, h3, h4, h5{
     width: 1280px;
     margin: auto;
 }
+.section-2{
+    float: left;
+    margin: auto;
+    width: 250px;
+    padding: 0px 20px;
+}
+.section-2div2{
+    margin: auto;
+    font-size: 22px;
+    font-family: oswald;
+    font-weight: 500;
+    width: 250px;
+    text-transform: uppercase;
+}
+.section-2div{
+    margin: auto;
+    font-size: 35px;
+    font-family: oswald;
+    font-weight: 700;
+    width: 61px;
+    padding-bottom: 14px;
+}
+#humanicon{font-size: 58px;margin-left: 114px;padding: 16px 0px;}
+.sectionmidel {
+        background: url(image/background-mosjid.jpg);
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 1280px;
+        margin: auto;
+}
+.sectionmidel2{
+color: white;   
+width: 1170px;
+overflow: hidden;   
+margin: auto;   
+padding: 60px;  
+height: 190px;
+
+}
+.sectionmid3{
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.486);
+}
